@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --font-principal: "Roboto", sans-serif;
+}
+
+.container {
+  background-image: url(https://source.unsplash.com/1600x900/?landscape);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-img {
+  position: static;
+  text-align: center;
+}
+
+.container-img img {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.list li {
+  box-shadow: black;
+  margin: 35px;
+  font-family: var(--font-principal);
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+
+.linkdin {
+  border: 2px solid #285598;
+  background: transparent;
+  color: #ffff;
+  padding: 8px 40px;
+  border-radius: 15px;
+  transition: background 0.2s;
+}
+
+.linkdin:active:hover {
+  background-color: #285598;
+}
+
+.gmail {
+  border: 2px solid #ff4444;
+  background: none;
+  color: #ffff;
+  padding: 8px 40px;
+  border-radius: 15px;
+  transition: background 0.2s;
+}
+
+.gmail:active:hover {
+  background: #ff4444;
+}
+
+.instagram {
+  border: 2px solid #ff0099;
+  background: none;
+  color: #ffff;
+  padding: 8px 40px;
+  border-radius: 15px;
+  transition: background 0.2s;
+}
+
+.instagram:active:hover {
+  background: #ff0099;
+}
+
+.Whatsapp {
+  border: 2px solid #4ceb35;
+  background: none;
+  color: #ffff;
+  padding: 8px 40px;
+  border-radius: 15px;
+  transition: background 0.2s;
+}
+
+.Whatsapp:active:hover {
+  background: #4ceb35;
+}
+
+.Portifólio {
+  border: 2px solid #7a05ff;
+  background: none;
+  color: #ffff;
+  padding: 8px 40px;
+  border-radius: 15px;
+  transition: background 0.2s;
+}
+
+.Portifólio:active:hover {
+  background: #7a05ff;
+}
+
+@media screen and(min-width: 648px) {
+  .profile {
+    width: 10%;
+  }
+}
+
+@media screen and(min-width: 1024px) {
+  .profile {
+    width: 10vh;
+  }
+}
